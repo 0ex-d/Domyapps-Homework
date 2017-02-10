@@ -1,0 +1,17 @@
+
+<div class="menu">
+  <h1>Menu</h1>
+
+  <table align="center">
+    <tr>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+    <% @menus.each do |i| %>
+    <tr id="items">
+      <td><%= i.item %></td>
+      <td id="price">$<span><%= i.price %></span></td>
+    </tr>
+    <% end %>
+  </table>
+</div>

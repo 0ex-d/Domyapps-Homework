@@ -1,0 +1,13 @@
+<h1> new</h1>
+
+<%= form_for @menu, url: {action:'create'} do |f| %>
+
+	<%= f.label :item %>
+	<%= f.text_field :item %>
+
+	<%= f.label :price %>
+	<%= f.text_field :price %>
+
+
+	<%= f.submit %>
+<% end %>

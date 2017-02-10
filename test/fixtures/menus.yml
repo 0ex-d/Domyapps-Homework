@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: Pizza
+  price: '10.00'
+
+two:
+  item: Lobster Linguine
+  price: '20.00'
+
+three:
+  item: Milkshake
+  price: '5.00'
